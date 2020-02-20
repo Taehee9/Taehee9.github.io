@@ -13,10 +13,10 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 
 추가해야 될 부분에 대해서 체크해놓고 바꿔봐야겠다.
 
-* About 화면 추가하기(Portfolio처럼)
-* 카테고리 넣기 - 계층형
-* emoji 추가하기
-* [Disqus](https://disqus.com/) 댓글추가하기
-* code block theme 추가하기
-* 글 내의 목차 사용하기
-* Light / Dark 테마 넣기
+[ ] About 화면 추가하기(Portfolio처럼)
+[ ] 카테고리 넣기 - 계층형
+[ ] emoji 추가하기
+[ ] [Disqus](https://disqus.com/) 댓글추가하기
+[ ] code block theme 추가하기
+[ ] 글 내의 목차 사용하기
+[ ] Light / Dark 테마 넣기
