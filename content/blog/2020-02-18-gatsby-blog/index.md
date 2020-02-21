@@ -13,21 +13,25 @@ description: "Gatsby 블로그 Github Pages로 배포하는 2가지 방법"
 Git repository = [사용자명].github.io
 
 pakage.json에
+```
 {
     "script": {
         "deploy": "gatsby build && gh-pages -d public -b master"
     }
 }
+```
 
 ### 프로젝트 사이트
 Git repository = 프로젝트명
 
+```
 package.json에
 {
     "script": {
         "deploy": "gatsby build --prefix-paths && gh-pages -d public"
     }
 }
+```
 
 gatsby-config.js 에
 module.exports = {
@@ -40,3 +44,4 @@ https://[사용자명].github.io
 
 ### 프로젝트 사이트
 https://[사용자명].github.io/[프로젝트명]
+

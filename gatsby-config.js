@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Dev.Red`,
+    title: `개발 유치원생`,
     author: `Taehee Kwon`,
     description: `기회는 스스로 찾는자에게 온다`,
     siteUrl: `https://taehee9.github.io/`,

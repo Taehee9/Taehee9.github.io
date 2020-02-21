@@ -13,10 +13,13 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 
 추가해야 될 부분에 대해서 체크해놓고 바꿔봐야겠다.
 
-[ ] About 화면 추가하기(Portfolio처럼)
-[ ] 카테고리 넣기 - 계층형
-[ ] emoji 추가하기
-[ ] [Disqus](https://disqus.com/) 댓글추가하기
-[ ] code block theme 추가하기
-[ ] 글 내의 목차 사용하기
-[ ] Light / Dark 테마 넣기
+* [ ] About 화면 추가하기(Portfolio처럼)
+* [ ] 카테고리 넣기 - 계층형
+* [ ] emoji 추가하기
+* [ ] 폰트 [Catamaran](https://fonts.google.com/specimen/Catamaran) [Noto Sans](https://fonts.google.com/specimen/Noto+Sans+KR)로 바꾸기
+* [ ] 댓글 [utterances](https://github.com/utterance/utterances) 댓글추가하기
+* [ ] code block theme 추가하기
+* [ ] 글 목차(Toc(Table of Contents)) 사용하기
+* [ ] Light / Dark 테마 넣기
+* [ ] 시리즈 한 번에 볼 수 있게 만들기
+* [ ] 작성 중인 글 보관하는 폴더 만들기
