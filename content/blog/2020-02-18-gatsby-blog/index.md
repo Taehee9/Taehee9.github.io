@@ -45,5 +45,8 @@ https://[사용자명].github.io
 ### 프로젝트 사이트
 https://[사용자명].github.io/[프로젝트명]
 
+```
 npm run deploy
- 입력해서 github pages에 배포
+```
+
+입력해서 github pages에 배포
