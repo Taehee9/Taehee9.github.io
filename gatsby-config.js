@@ -1,80 +1,175 @@
+const lost = require('lost')
+const pxtorem = require('postcss-pxtorem')
+
+const url = 'https://lumen.netlify.com'
+
 module.exports = {
   siteMetadata: {
-    title: `개발 유치원생`,
-    author: `Taehee Kwon`,
-    description: `기회는 스스로 찾는자에게 온다`,
-    siteUrl: `https://taehee9.github.io/`,
-    social: {
-      github: `Taehee9`,
+    url,
+    siteUrl: url,
+    title: '성장일기',
+    subtitle:
+      '여러 분야의 성장 일기',
+    copyright: '© All rights reserved.',
+    disqusShortname: '',
+    menu: [
+      {
+        label: 'All',
+        path: '/',
+      },
+      {
+        label: 'About me',
+        path: '/about/',
+      },
+      {
+        label: 'Develop',
+        path: '/develop/',
+      },
+    ],
+    author: {
+      name: 'Taehee Kwon',
+      email: 'gwonth9509@gmail.com',
+      telegram: '@TaeheeKwon',
+      github: 'https://taehee9.github.io/',
+      rss: '#',
+      vk: '',
     },
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-feed',
       options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
+        query: `
           {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-            },
-          },
+            site {
+              siteMetadata {
+                url
+                title
+                description: subtitle
+              }
+            }
+          }
+        `,
+        feeds: [
           {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
+            serialize: ({ query: { site, allMarkdownRemark } }) =>
+              allMarkdownRemark.edges.map(edge =>
+                Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.description,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.url + edge.node.fields.slug,
+                  guid: site.siteMetadata.url + edge.node.fields.slug,
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                })
+              ),
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } }
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields {
+                        slug
+                      }
+                      frontmatter {
+                        title
+                        date
+                        layout
+                        draft
+                        description
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-transformer-remark',
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 960,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-responsive-iframe',
+            options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
+          },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
+        ],
       },
     },
-    `gatsby-plugin-feed`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-google-analytics',
+      options: { trackingId: 'UA-73379983-2' },
+    },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        fonts: ['roboto:400,400i,500,700'],
       },
     },
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-sass',
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        postCssPlugins: [
+          lost(),
+          pxtorem({
+            rootValue: 16,
+            unitPrecision: 5,
+            propList: [
+              'font',
+              'font-size',
+              'line-height',
+              'letter-spacing',
+              'margin',
+              'margin-top',
+              'margin-left',
+              'margin-bottom',
+              'margin-right',
+              'padding',
+              'padding-top',
+              'padding-left',
+              'padding-bottom',
+              'padding-right',
+              'border-radius',
+              'width',
+              'max-width',
+            ],
+            selectorBlackList: [],
+            replace: true,
+            mediaQuery: false,
+            minPixelValue: 0,
+          }),
+        ],
+        precision: 8,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
