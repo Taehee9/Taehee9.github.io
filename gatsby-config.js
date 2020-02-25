@@ -26,12 +26,22 @@ module.exports = {
         path: '/develop/',
         sub_menu: [
           {
-            label: 'blog',
-            path: '/blog/',
+            label: 'Java',
+            path: '/Java/',
           },
           {
-            label: 'java',
-            path: '/java/',
+            label: 'DB',
+            path: '/db/',
+          },
+        ]
+      },
+      {
+        label: 'ETC',
+        path: '/etc/',
+        sub_menu: [
+          {
+            label: '경제상식',
+            path: '/economy/',
           },
         ]
       },

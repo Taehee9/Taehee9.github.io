@@ -81,7 +81,7 @@ export const pageQuery = graphql`
       filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } }
     ) {
       group(field: frontmatter___category) {
-        fieldValue
+        fieldValue 
         totalCount
       }
     }
