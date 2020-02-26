@@ -22,25 +22,31 @@ module.exports = {
         path: '/about/',
       },
       {
-        label: 'Develop',
-        path: '/develop/',
+        label: 'Programming',
+        path: '/pg/',
         sub_menu: [
           {
             label: 'Java',
             path: '/Java/',
           },
+        ]
+      },
+      {
+        label: 'Computer Science',
+        path: '/sc/',
+        sub_menu: [
           {
-            label: 'DB',
-            path: '/db/',
+            label: '자료구조 & 알고리즘',
+            path: '/dsalgo/',
           },
         ]
       },
       {
-        label: 'ETC',
-        path: '/etc/',
+        label: 'Learning',
+        path: '/learning/',
         sub_menu: [
           {
-            label: '경제상식',
+            label: '경제',
             path: '/economy/',
           },
         ]
