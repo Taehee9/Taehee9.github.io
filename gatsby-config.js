@@ -29,7 +29,7 @@ module.exports = {
             label: 'Java',
             path: '/Java/',
           },
-        ]
+        ],
       },
       {
         label: 'Computer Science',
@@ -37,20 +37,20 @@ module.exports = {
         sub_menu: [
           {
             label: '자료구조 & 알고리즘',
-            path: '/dsalgo/',
+            path: '/Algorithm/',
           },
-        ]
+        ],
       },
-      {
-        label: 'Learning',
-        path: '/learning/',
-        sub_menu: [
-          {
-            label: '경제',
-            path: '/economy/',
-          },
-        ]
-      },
+      // {
+      //   label: 'Learning',
+      //   path: '/learning/',
+      //   sub_menu: [
+      //     {
+      //       label: '경제',
+      //       path: '/Economhy/',
+      //     },
+      //   ],
+      // },
     ],
     author: {
       name: 'Taehee Kwon',

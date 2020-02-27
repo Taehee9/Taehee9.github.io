@@ -4,7 +4,7 @@ date: "2020-02-24T18:54:10.000Z"
 layout: post
 draft: true
 path: "/posts/architecture/"
-category: "Develop"
+category: "Web"
 tags: 
   - "단어의미"
   - "아키텍처"
