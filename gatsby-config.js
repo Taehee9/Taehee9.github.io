@@ -28,6 +28,7 @@ module.exports = {
           {
             label: 'Java',
             path: '/Java/',
+            totalCount: '0',
           },
         ],
       },
@@ -38,6 +39,7 @@ module.exports = {
           {
             label: '자료구조 & 알고리즘',
             path: '/Algorithm/',
+            totalCount: '0',
           },
         ],
       },
@@ -54,7 +56,7 @@ module.exports = {
     ],
     author: {
       name: 'Taehee Kwon',
-      email: 'gwonth9509@gmail.com',
+      email: 'kwonth9509@gmail.com',
       telegram: '@TaeheeKwon',
       github: 'https://taehee9.github.io/',
       rss: '#',
