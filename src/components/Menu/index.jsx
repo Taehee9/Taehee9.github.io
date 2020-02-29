@@ -29,7 +29,7 @@ class Menu extends React.Component {
                         className="menu__list-item-link"
                         activeClassName="menu__list-item-link menu__list-item-link--active"
                       >
-                        {sub_item.label} ({sub_item.label.size})
+                        {sub_item.label} <small>{sub_item.count}</small>
                       </Link>
                     </li>
                   ))}

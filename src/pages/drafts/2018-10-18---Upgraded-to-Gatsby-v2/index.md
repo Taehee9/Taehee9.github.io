@@ -2,8 +2,9 @@
 title: Upgraded to Gatsby v2
 date: "2018-10-18T16:51:00.000Z"
 layout: post
+draft: true
 path: "/posts/upgraded-to-gatsby-v2/"
-category: "Economy"
+category: "Algorithm"
 tags:
   - "Gatsby"
   - "Web Development"

@@ -4,13 +4,13 @@
 .post {
     @include margin-bottom(1.25);
     &:last-child {
-        @include margin-bottom(.5);
+        @include margin-bottom(.6);
     }
     &__title {
         font-size: $typographic-base-font-size * 1.6875;
         @include line-height(1.5);
         @include margin-top(0);
-        @include margin-bottom(.5);
+        @include margin-bottom(.35);
         &-link {
             color: $color-base;
             &:hover,
@@ -23,27 +23,37 @@
     &__description {
         font-size: $typographic-base-font-size;
         @include line-height(1);
-        @include margin-bottom(.75);
+        @include margin-bottom(.35);  
+        @include margin-top(.35);    
+    }
+    &__title-link {
+        &:hover,
+        &:focus {
+            .post__title {
+                color: $color-secondary;
+            }
+            .post__description, .post__meta-time {
+                font-weight: 500;
+            }
+        }
     }
     &__meta {
         &-time {
             font-size: $typographic-small-font-size;
             color: $color-base;
-            font-weight: 500;
             text-transform: uppercase;
-        }
-        &-divider {
-            margin: 0 5px;
         }
         &-category {
             &-link {
+                margin-left: 10px;
                 font-size: $typographic-small-font-size;
-                color: $color-secondary;
-                font-weight: 500;
+                color: $color-primary;
                 text-transform: uppercase;
                 &:hover,
                 &:focus {
+                    font-weight: 600;
                     color: $color-primary;
+                    text-decoration: underline;
                 }
             }
         }

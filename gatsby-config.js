@@ -28,7 +28,6 @@ module.exports = {
           {
             label: 'Java',
             path: '/Java/',
-            totalCount: '0',
           },
         ],
       },
@@ -39,7 +38,16 @@ module.exports = {
           {
             label: '자료구조 & 알고리즘',
             path: '/Algorithm/',
-            totalCount: '0',
+          },
+        ],
+      },
+      {
+        label: 'Review',
+        path: '/Review/',
+        sub_menu: [
+          {
+            label: '블로그',
+            path: '/Blog/',
           },
         ],
       },
@@ -199,5 +207,6 @@ module.exports = {
         precision: 8,
       },
     },
+    
   ],
 }

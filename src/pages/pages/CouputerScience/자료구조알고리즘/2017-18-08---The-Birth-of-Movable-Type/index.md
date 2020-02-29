@@ -2,9 +2,9 @@
 title: "Johannes Gutenberg: The Birth of Movable Type"
 date: "2017-08-18T22:12:03.284Z"
 layout: post
-draft: false
+draft: true
 path: "/Develop/the-birth-of-movable-type/"
-category: "Java"
+category: "Algorithm"
 tags:
   - "Open source"
   - "Gatsby"

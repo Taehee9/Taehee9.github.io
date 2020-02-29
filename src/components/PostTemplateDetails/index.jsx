@@ -5,6 +5,8 @@ import React from 'react'
 import kebabCase from 'lodash/kebabCase'
 import moment from 'moment'
 import throttle from 'lodash/throttle';
+import profilePic from '../../pages/photo.jpg';
+import Utterance from '../Utterance/Utterance';
 
 class PostTemplateDetails extends React.Component {
 
@@ -123,7 +125,7 @@ class PostTemplateDetails extends React.Component {
 
 
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata
+    const { author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const category = this.props.data.markdownRemark.frontmatter.category
     const path = post.frontmatter.path
@@ -132,7 +134,7 @@ class PostTemplateDetails extends React.Component {
     const homeBlock = (
       <div>
         <Link className="post-single__home-button" to="/">
-          Home
+          HOME
         </Link>
       </div>
     )
@@ -159,10 +161,10 @@ class PostTemplateDetails extends React.Component {
     )
 
     const tagsBlock = (
-      <div className="post-single__tags">
+      <div className="post-single__tags"> 
         <ul className="post-single__tags-list">
           {tags &&
-            tags.map((tag, i) => (
+            tags.map((tag, i) => ( 
               <li className="post-single__tags-list-item" key={tag}>
                 <Link to={tag} className="post-single__tags-list-item-link">
                   {post.frontmatter.tags[i]}
@@ -172,15 +174,6 @@ class PostTemplateDetails extends React.Component {
         </ul>
       </div>
     )
-
-    // const commentsBlock = (
-    //   <div>
-    //     <Disqus
-    //       postNode={post}
-    //       siteMetadata={this.props.data.site.siteMetadata}
-    //     />
-    //   </div>
-    // )
 
     return (
       <div>
@@ -195,13 +188,15 @@ class PostTemplateDetails extends React.Component {
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
 
             <div className="post-single__meta">
+              <em>{author.name}</em>
+              <br/>
+              <em>
+                {moment(post.frontmatter.date).format('MMM DD, YYYY')}
+              </em>
+              <span> · </span>
               <Link to={`/categories/${category}/`} className="post-single__meta-link">
                 {category}
               </Link>
-              <span>·</span>
-              <em>
-                {moment(post.frontmatter.date).format('YYYY.MM.DD hh:ss')}
-              </em>
             </div>
 
             <div
@@ -209,20 +204,29 @@ class PostTemplateDetails extends React.Component {
               /* eslint-disable-next-line react/no-danger */
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-            <div className="post-single__date">
+            {/* <div className="post-single__date">
               <em>
                 Published {moment(post.frontmatter.date).format('D MMM YYYY')}
               </em>
-            </div>
+            </div> */}
           </div>
-          <div className="post-single__footer">
+          {/* <div className="post-single__footer">
             {tagsBlock}
-            <hr />
+            <hr/>
             <p className="post-single__footer-text">
-              {subtitle}
+              <img
+                src={profilePic}
+                className="sidebar__author-photo"
+                width="75"
+                height="75"
+                align='left'
+                alt={author.name}
+              />{' '}
+              <p className="post-single__footer-text-first">{author.name}</p>
+              <p>{subtitle}</p>
             </p>
-            {/* {commentsBlock} */}
-          </div>
+          </div> */}
+          <Utterance />
         </div>
       </div>
     )

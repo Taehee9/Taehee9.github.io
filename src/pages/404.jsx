@@ -15,7 +15,10 @@ class NotFoundRoute extends React.Component {
                 <h1 className="page__title">NOT FOUND</h1>
                 <div className="page__body">
                   <p>
-                    You just hit a route that doesn&#39;t exist... the sadness.
+                    잘못된 페이지를 요청하였습니다.
+                  </p>
+                  <p>
+                    You have requested an invalid page.
                   </p>
                 </div>
               </div>
