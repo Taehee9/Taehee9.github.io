@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
     font-family: $typographic-font-family;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h1 {
@@ -55,13 +55,13 @@ h4 {
 h5 {
     font-size: $typographic-base-font-size;
     @include line-height(1);
-    @include margin-bottom(.5);
+    @include margin-bottom(.3);
 }
 
 h6 {
     font-size: $typographic-base-font-size;
-    @include line-height(1);
-    @include margin-bottom(.5);
+    @include line-height(.3);
+    @include margin-bottom(.3);
 }
 
 img {
@@ -158,7 +158,7 @@ figcaption {
         float: left;
     }
     .content {
-        lost-column: 7/12;
+        lost-column: 10/13;
         &__inner {
             padding: 30px 20px;
         }
@@ -167,7 +167,7 @@ figcaption {
 
 @include breakpoint-md {
     .content {
-        lost-column: 2/3;
+        lost-column: 10/13;
         &__inner {
             padding: 40px 35px;
         }
