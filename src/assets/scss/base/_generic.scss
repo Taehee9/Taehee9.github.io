@@ -97,11 +97,12 @@ a {
 
 b,
 strong {
-    font-weight: 500;
+    font-weight: bolder;
 }
 
 ul {
     list-style: circle;
+    padding-inline-start: 20px;
     @include margin-bottom(1);
     & li {
         padding: 0 5px;
@@ -109,14 +110,38 @@ ul {
     }
 }
 
+ol {
+    padding-left: 20px;
+}
+
 p {
     @include line-height(1);
-    @include margin-bottom(1);
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 blockquote {
     padding-left: 10px;
-    border-left: 3px solid $color-secondary;
+    border-left: 3px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table thead th {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+table tbody tr td {
+    min-width: 40px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
 }
 
 figure {
