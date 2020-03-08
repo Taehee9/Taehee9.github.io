@@ -131,6 +131,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
+            title: "Taehee's RSS Feed",
           },
         ],
       },
