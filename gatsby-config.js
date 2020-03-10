@@ -42,12 +42,16 @@ module.exports = {
         ],
       },
       {
-        label: 'Review',
-        path: '/Review/',
+        label: 'ETC',
+        path: '/ETC/',
         sub_menu: [
           {
             label: '블로그',
             path: '/Blog/',
+          },
+          {
+            label: 'Git',
+            path: '/Git/',
           },
         ],
       },
@@ -131,6 +135,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
+            title: "Taehee's RSS Feed",
           },
         ],
       },

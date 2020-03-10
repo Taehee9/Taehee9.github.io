@@ -210,6 +210,10 @@ class PostTemplateDetails extends React.Component {
               </em>
             </div> */}
           </div>
+          <div className="post-single__footer">
+            <hr/>
+            <Utterance />
+          </div>
           {/* <div className="post-single__footer">
             {tagsBlock}
             <hr/>
@@ -226,7 +230,6 @@ class PostTemplateDetails extends React.Component {
               <p>{subtitle}</p>
             </p>
           </div> */}
-          <Utterance />
         </div>
       </div>
     )
