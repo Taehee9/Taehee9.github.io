@@ -5,11 +5,11 @@ import React from 'react'
 import kebabCase from 'lodash/kebabCase'
 import moment from 'moment'
 import throttle from 'lodash/throttle';
-import profilePic from '../../pages/photo.jpg';
 import Utterance from '../Utterance/Utterance';
 
 class PostTemplateDetails extends React.Component {
 
+  // eslint-disable-next-line react/sort-comp
   HeaderManager = {
     tocHeader: [],
     postHeader: [],
@@ -56,7 +56,7 @@ class PostTemplateDetails extends React.Component {
         code_block.insertAdjacentElement('afterbegin', button)
       })
     },
-    _cpoy: (e) => {
+    _cpoy: e => {
       const target = e.target.nextSibling;
       let range, select;
 
@@ -147,6 +147,16 @@ class PostTemplateDetails extends React.Component {
       </div>
     )
 
+    const homeMenu = (
+      <div className="post-single__dropdown">
+        <button class="post-single__home-button">Category</button>
+        <div class="post-single__dropdown-content">
+          <a href="/">Home</a>
+          <a href="#"></a>
+        </div>
+      </div>
+    )
+
     const tableOfContents = (
       <ul className="post-single__table_of_contents-list">
         {post &&
@@ -177,6 +187,7 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <div>
+        {/* { homeMenu } */}
         {homeBlock}
         {/* backBlock */}
         <div className="post-single__table_of_contents" >
