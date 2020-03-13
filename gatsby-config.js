@@ -46,6 +46,10 @@ module.exports = {
         path: '/ETC/',
         sub_menu: [
           {
+            label: 'IT용어',
+            path: '/Itword/',
+          },
+          {
             label: '블로그',
             path: '/Blog/',
           },
