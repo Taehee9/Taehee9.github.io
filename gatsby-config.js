@@ -50,12 +50,12 @@ module.exports = {
             path: '/Itword/',
           },
           {
-            label: '블로그',
-            path: '/Blog/',
-          },
-          {
             label: 'Git',
             path: '/Git/',
+          },
+          {
+            label: '블로그',
+            path: '/Blog/',
           },
         ],
       },

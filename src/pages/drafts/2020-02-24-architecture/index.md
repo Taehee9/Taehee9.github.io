@@ -5,9 +5,6 @@ layout: post
 draft: true
 path: "/posts/architecture/"
 category: "Web"
-tags: 
-  - "단어의미"
-  - "아키텍처"
 description: "아키텍처의 의미, 그리고 아키텍처의 중요성"
 ---
 아키텍처의 의미, 그리고 아키텍처의 중요성에 대해 알아볼 것이다.
