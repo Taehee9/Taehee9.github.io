@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 11:47:09 GMT</lastBuildDate><item><title><![CDATA[markdown 사용법]]></title><description><![CDATA[gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Mar 2020 13:06:14 GMT</lastBuildDate><item><title><![CDATA[IT용어 > 의사코드(Pseudo Code)]]></title><description><![CDATA[IT용어 정리[2] - Pseudo code란 무엇인가]]></description><link>https://lumen.netlify.com/posts/pseudoCode</link><guid isPermaLink="false">https://lumen.netlify.com/posts/pseudoCode</guid><pubDate>Sat, 14 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pseudo Code란?&lt;/h2&gt;
+&lt;h3&gt;위키백과&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9D%98%EC%82%AC%EC%BD%94%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 pseudo code란
+프로그램을 작성할 때 각 모듈이 작동하는 논리를 표현하기 위한 언어이다.&lt;/p&gt;
+&lt;p&gt;특정 프로그래밍 언어의 문법에 의해서 쓰인 것이 아니라 일반적인 언어로 코드를 흉내내어 알고리즘을 써놓은 코드이다.&lt;/p&gt;
+&lt;h3&gt;예시&lt;/h3&gt;
+&lt;h4&gt;C언어 스타일의 슈도코드&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;For (i = 1; i&amp;lt;=100; i++) {
+    set print_number to true;
+    If i is divisible by 3
+        print &amp;quot;Fizz&amp;quot;;
+        set print_number to false;
+    If i is divisible by 5
+        print &amp;quot;Buzz&amp;quot;;
+        set print_number to false;
+    If print_number, print i;
+    print a newline;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 오버헤드(Overhead)]]></title><description><![CDATA[IT용어 정리[1] - Overhead란 무엇인가]]></description><link>https://lumen.netlify.com/posts/overhead</link><guid isPermaLink="false">https://lumen.netlify.com/posts/overhead</guid><pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;오버헤드란?&lt;/h2&gt;
+&lt;h3&gt;위키백과&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 오버헤드란 어떤 처리를 하기 위해 들어가는 간접적인 처리 시간, 메모리 등을 의미한다.&lt;/p&gt;
+&lt;h3&gt;예시&lt;/h3&gt;
+&lt;p&gt;A라는 처리를 단순하게 실행한다면 10초가 걸리는데 안정성을 고려하고 부가적인 B라는 처리를 추가한 결과 처리 시간이 15초 걸렸다면 오버헤드는 5초가 된다.
+또한 이 처리 B를 개선하라고 해서 처리 시간이 12초가 걸렸다면 오버헤드가 3초 단축되었다고 말한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[markdown 사용법]]></title><description><![CDATA[gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
 &lt;h2&gt;헤더&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# first
 ## second
