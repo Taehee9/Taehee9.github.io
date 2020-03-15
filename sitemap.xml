@@ -4,10 +4,10 @@
 <url> <loc>https://lumen.netlify.com/posts/overhead</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/categories/itword/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/pseudoCode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/generate-to-deploy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/categories/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/first-gatsby-blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/categories/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/how-to-write</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/pages/generate-to-deploy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
