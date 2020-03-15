@@ -1,11 +1,11 @@
 ---
-title: Gatsby 블로그 생성부터 Github Pages로 배포까지
+title: Blog > Gatsby 블로그 생성부터 Github Pages로 배포까지
 date: "2020-02-18"
 layout: post
 draft: false
 path: "/pages/generate-to-deploy"
 category: "Blog"
-description: "Gatsby 블로그 생성하고 Github Pages로 배포하는 2가지 방법"
+description: "Blog[2] - Gatsby 블로그 생성하고 Github Pages로 배포하는 2가지 방법"
 ---
 
 ## GatsbyJS 설치 방법

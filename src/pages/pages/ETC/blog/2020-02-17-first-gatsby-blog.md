@@ -1,11 +1,11 @@
 ---
-title: Gatsby로 만든 첫번째 블로그
+title: Blog > Gatsby로 만든 첫번째 블로그
 date: "2020-02-17"
 layout: post
 draft: false
 path: "/posts/first-gatsby-blog"
 category: "Blog"
-description: "Gatsby로 만든 첫 번째 블로그 - 앞으로의 to do list"
+description: "Blog[1] - Gatsby로 만든 첫 번째 블로그 - 앞으로의 to do list"
 ---
 
 요즘 공부에 관심이 많아지면서 그동안 공부했던 것들과 앞으로 공부할 것들을 남기기 위해 블로그를 만들었다.

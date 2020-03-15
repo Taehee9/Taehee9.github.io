@@ -1,11 +1,11 @@
 ---
-title: markdown 사용법
+title: Blog > markdown 사용법
 date: "2020-02-21"
 layout: post
 draft: false
 path: "/posts/how-to-write"
 category: "Blog"
-description: "gatsby 블로그 작성시 필요한 markdown 사용법"
+description: "Blog[3] - gatsby 블로그 작성시 필요한 markdown 사용법"
 ---
 
 # 마크다운 쓰는 문법
