@@ -32,6 +32,16 @@ module.exports = {
         ],
       },
       {
+        label: 'Database',
+        path: '/db/',
+        sub_menu: [
+          {
+            label: 'DB',
+            path: '/Db/',
+          },
+        ],
+      },
+      {
         label: 'Computer Science',
         path: '/sc/',
         sub_menu: [
