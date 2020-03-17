@@ -28,3 +28,4 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 * [ ] 시리즈 한번에 볼 수 있게 만들기 - [junhobaik님 블로그 참고](junhobaik.github.io) 
 * [x] 작성 중인 글 보관하는 폴더 만들기
 * [ ] 드롭다운 메뉴 만들기
+* [x] favicon 설정하기
