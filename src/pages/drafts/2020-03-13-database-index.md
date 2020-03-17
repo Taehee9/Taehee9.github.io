@@ -8,4 +8,6 @@ category: "DB"
 description: "DB[1] - DB Index란?"
 ---
 
-작성중
+## Index란?
+검색 속도를 높이기 위해 사용하는 하나의 기술이다.
+책에서 목차와 
