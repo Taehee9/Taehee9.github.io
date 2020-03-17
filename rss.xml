@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 15 Mar 2020 05:09:15 GMT</lastBuildDate><item><title><![CDATA[IT용어 > 의사코드(Pseudo Code)]]></title><description><![CDATA[IT용어 정리[2] - Pseudo code란 무엇인가]]></description><link>https://lumen.netlify.com/posts/pseudoCode</link><guid isPermaLink="false">https://lumen.netlify.com/posts/pseudoCode</guid><pubDate>Sat, 14 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pseudo Code란?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Mar 2020 08:49:46 GMT</lastBuildDate><item><title><![CDATA[Blog > 웹페이지 상단 이미지, favicon 설정하기]]></title><description><![CDATA[Blog[4] - 블로그의 상단 이미지, Favicon 설정하기]]></description><link>https://lumen.netlify.com/posts/favicon</link><guid isPermaLink="false">https://lumen.netlify.com/posts/favicon</guid><pubDate>Tue, 17 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Favicon이란?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Favorites + Icon&lt;/strong&gt; 의 합성어로 웹 브라우저 주소창에 있는 아이콘을 뜻한다.&lt;/p&gt;
+&lt;h3&gt;예시 - 네이버&lt;/h3&gt;
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/cf522fdf3f8ce6bbc3a1c533c91dac61/0abdd/favicon-example.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 510px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 17.64705882352941%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAqElEQVQY043MyxKBYABA4R7EDKaiTAkV/uTSsEON22goWtpkw1vxjsdlxhaLb3fmSJFcIiwWCFSFsqKhqBqyUkXTDfRa/W+ablKp1pDC6xRxO5FPfNI4YbmJSZKMwXCM43q0O72f3LaH8AaE0RJpcZkxup/JA8Fxd2Cz3ZOmGX4/wHa679hxxVevriv6z+EKKbZM1obOvNnAsGwsy8Gst/6evXy6RtPlAb1qhfyu7/cYAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;favicon example&quot; title src=&quot;/static/cf522fdf3f8ce6bbc3a1c533c91dac61/0abdd/favicon-example.png&quot; srcset=&quot;/static/cf522fdf3f8ce6bbc3a1c533c91dac61/8ff5a/favicon-example.png 240w,
+/static/cf522fdf3f8ce6bbc3a1c533c91dac61/e85cb/favicon-example.png 480w,
+/static/cf522fdf3f8ce6bbc3a1c533c91dac61/0abdd/favicon-example.png 510w&quot; sizes=&quot;(max-width: 510px) 100vw, 510px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h2&gt;홈페이지에 favicon 설정하기&lt;/h2&gt;
+&lt;h3&gt;이미지 준비&lt;/h3&gt;
+&lt;p&gt;정사각형의 이미지를 준비한다.
+보통 16 x 16을 많이 사용하지만, 나는 그냥 정사각형의 이미지를 사용했다.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3&gt;ico 변환 사이트 이용&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.xiconeditor.com/&quot;&gt;ico 무료 변환 사이트&lt;/a&gt;를 접속한 다음
+import -&gt; 이미지 open -&gt; 16x16 선택 -&gt; export
+&lt;strong&gt;favicon.ico&lt;/strong&gt;라는 이름으로 다운을 받는다.&lt;/p&gt;
+&lt;p&gt; 여기서 잠깐!&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;크기&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;용도&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;16x16&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;IE9 주소 표시줄, 고정된(pinned) 사이트의 점프목록/툴바/오버레이&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;32x32&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;IE의 새로운 탭 페이지, 윈도우7 이상에서 작업 표시줄 단추, Safari 나중에 읽기 사이드바&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;48x48&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;윈도우즈 사이트 아이콘&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h3&gt;html 문서에 코드 삽입&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;shortcut icon&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;./favicon.ico&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;참고&lt;/h3&gt;
+&lt;p&gt;더 자세한 favicon에 관한 내용은 아래 사이트를 참고하기.&lt;br/&gt;
+&lt;a href=&quot;https://webdir.tistory.com/337&quot;&gt;파비콘(Favicon)의 모든것&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 의사코드(Pseudo Code)]]></title><description><![CDATA[IT용어 정리[2] - Pseudo code란 무엇인가]]></description><link>https://lumen.netlify.com/posts/pseudoCode</link><guid isPermaLink="false">https://lumen.netlify.com/posts/pseudoCode</guid><pubDate>Sat, 14 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pseudo Code란?&lt;/h2&gt;
 &lt;h3&gt;위키백과&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9D%98%EC%82%AC%EC%BD%94%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 pseudo code란
 프로그램을 작성할 때 각 모듈이 작동하는 논리를 표현하기 위한 언어이다.&lt;/p&gt;
@@ -20,7 +76,18 @@
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 오버헤드란 어떤 처리를 하기 위해 들어가는 간접적인 처리 시간, 메모리 등을 의미한다.&lt;/p&gt;
 &lt;h3&gt;예시&lt;/h3&gt;
 &lt;p&gt;A라는 처리를 단순하게 실행한다면 10초가 걸리는데 안정성을 고려하고 부가적인 B라는 처리를 추가한 결과 처리 시간이 15초 걸렸다면 오버헤드는 5초가 된다.
-또한 이 처리 B를 개선하라고 해서 처리 시간이 12초가 걸렸다면 오버헤드가 3초 단축되었다고 말한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog > markdown 사용법]]></title><description><![CDATA[Blog[3] - gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
+또한 이 처리 B를 개선하라고 해서 처리 시간이 12초가 걸렸다면 오버헤드가 3초 단축되었다고 말한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 아키텍처란?(시스템 아키텍처)]]></title><description><![CDATA[IT용어 정리[3] - 아키텍처의 의미, 그리고 아키텍처의 중요성]]></description><link>https://lumen.netlify.com/posts/architecture/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/architecture/</guid><pubDate>Mon, 24 Feb 2020 18:54:10 GMT</pubDate><content:encoded>&lt;h2&gt;아키텍처의 의미, 그리고 아키텍처의 중요성에 대해 알아볼 것이다.&lt;/h2&gt;
+&lt;h1&gt;아키텍처(Architecture)&lt;/h1&gt;
+&lt;h2&gt;사전적 의미&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98#cite_note-1&quot;&gt;위키백과의 시스템 아키텍처&lt;/a&gt;
+시스템 아키텍처(system Architecture)는 시스템의 구조, 행위, 더 많은 뷰를 정의하는 개념적 모형이다.[1] 시스템 목적을 달성하기 위해 시스템의 각 컴포넌트가 무엇이며 어떻게 상호작용하는지, 정보가 어떻게 교환되는지를 설명한다.&lt;/p&gt;
+&lt;h2&gt;이해한 의미&lt;/h2&gt;
+&lt;p&gt;아키텍처란 다양한 환경에 대응할 수 있게 여러 부분을 고려해 시스템의 구조 및 구성을 설계하는 것이라고 생각한다. &lt;/p&gt;
+&lt;h3&gt;다양한 환경이란,&lt;/h3&gt;
+&lt;p&gt;내부 개발자의 변화처럼 내부 환경뿐만 아니라 잦은 요구변경, 정책의 변화, 사용하던 서비스의 중단, 사용중인 라이브러리의 버전업 또는 지원중단 등 외부 환경과 변수는 다양하다.&lt;/p&gt;
+&lt;h2&gt;아키텍처 설계의 중요성&lt;/h2&gt;
+&lt;p&gt;아키텍처 설계를 제대로 하지 않아 다양한 환경에 적응하지 못한다면 사소한 변경요구에도 많은 부분을 변경해야되서 시간지체가 이뤄질 수 있다.
+또한, 운영을 하는 입장에서도 라이브러리의 버전업이나 지원중단, 내부 개발자의 변경 등의 문제에서도 많은 시간을 할애해야하는 경우가 생기므로 아키텍처는 제대로 설계해서 구성해야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog > markdown 사용법]]></title><description><![CDATA[Blog[3] - gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
 &lt;h2&gt;헤더&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# first
 ## second
@@ -248,4 +315,5 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 시리즈 한번에 볼 수 있게 만들기 - &lt;a href=&quot;junhobaik.github.io&quot;&gt;junhobaik님 블로그 참고&lt;/a&gt; &lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 작성 중인 글 보관하는 폴더 만들기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 드롭다운 메뉴 만들기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; favicon 설정하기&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
