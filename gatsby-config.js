@@ -69,16 +69,16 @@ module.exports = {
           },
         ],
       },
-      // {
-      //   label: 'Learning',
-      //   path: '/learning/',
-      //   sub_menu: [
-      //     {
-      //       label: '경제',
-      //       path: '/Economhy/',
-      //     },
-      //   ],
-      // },
+      {
+        label: 'Learning',
+        path: '/learning/',
+        sub_menu: [
+          {
+            label: '경제',
+            path: '/Economy/',
+          },
+        ],
+      },
     ],
     author: {
       name: 'Taehee Kwon',
