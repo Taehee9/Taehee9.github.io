@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Mar 2020 08:49:46 GMT</lastBuildDate><item><title><![CDATA[Blog > 웹페이지 상단 이미지, favicon 설정하기]]></title><description><![CDATA[Blog[4] - 블로그의 상단 이미지, Favicon 설정하기]]></description><link>https://lumen.netlify.com/posts/favicon</link><guid isPermaLink="false">https://lumen.netlify.com/posts/favicon</guid><pubDate>Tue, 17 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Favicon이란?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 Mar 2020 10:05:30 GMT</lastBuildDate><item><title><![CDATA[경제 > 뉴스[1] - 은행 외화보유자산 늘린다]]></title><description><![CDATA[경제뉴스[1] - 은행 외화 보유자산 늘리기 위해 은행 선물환 포지션 한도 확대]]></description><link>https://lumen.netlify.com/posts/news0318/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/news0318/</guid><pubDate>Wed, 18 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;3월 18일 오늘의 경제 뉴스&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;sm=tab_htk.nws&amp;#x26;ie=utf8&amp;#x26;query=%EC%9D%80%ED%96%89+%EC%84%A0%EB%AC%BC%ED%99%98%ED%8F%AC%EC%A7%80%EC%85%98%ED%95%9C%EB%8F%84+25%25+%ED%99%95%EB%8C%80&quot;&gt;은행 선물환 포지션 한도 확대 기사&lt;/a&gt;&lt;br/&gt;
+오늘 오전에 실검에 계속 떠있던 기사에 대해 궁금한 것이 있어 가져와봤다.&lt;/p&gt;
+&lt;h2&gt;기사 자세한 내용&lt;/h2&gt;
+&lt;p&gt;국내 은행의 선물환 포지션 한도는 현행 40%에서 50%로 확대됩니다. 또 외국계 은행의 국내지점의 경우 200%에서 250%로 늘어납니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;모르는 내용&lt;/h2&gt;
+&lt;h3&gt;선물이란?&lt;/h3&gt;
+&lt;p&gt;파생상품의 한 종류로 간단하게 말하면 선 매매, 후 물건 인수 방식을 말한다.&lt;br/&gt;
+상품이나 금융자산을 미리 결정된 가격으로 미래의 어느 시점에 거래하겠다는 것을 뜻한다.&lt;/p&gt;
+&lt;h4&gt;예시&lt;/h4&gt;
+&lt;p&gt;미래에 왠지 고구마가 가격이 오를 것 같은 생각이 든다.&lt;br/&gt;
+이 떄 고구마 농사 짓는 분이랑 1년 뒤 고구마 가격이 어떤지 보지않고 무조건 1개당 1,000원 으로 거래하자고 한다.&lt;br/&gt;
+농사 짓는 분도 나와 같이 가격이 오를 것 같으면 계약을 안할 것이고, 가격이 떨어질 것 같으면 계약을 한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이런식으로 계약은 지금하지만, 이행은 미래에 하는 것을 &lt;strong&gt;선물&lt;/strong&gt;이라고 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;선물환이란?&lt;/h3&gt;
+&lt;p&gt;고구마선물 = 고구마를 미래의 어느 날에 거래할 것인지 미리 해두는 계약
+선물환 = 미래에 외국 돈을 얼마에 사고 팔기로 한 계약&lt;/p&gt;
+&lt;h3&gt;선물환 포지션이란?&lt;/h3&gt;
+&lt;p&gt;선물환 포지션 = 선물 외화 자산 - 선물 외화 부채&lt;/p&gt;
+&lt;p&gt;즉, 선물환 포지션은 은행의 자기 자본에 대한 &lt;strong&gt;선물 외화 순자산 비율&lt;/strong&gt;을 의미한다.&lt;br/&gt;&lt;br/&gt;
+이 비율이 커지면 은행들이 외화 보유 규모를 늘릴 수 있게 되고 자본시장에 공급할 수 있는 외화도 그만큼 확대됩니다.&lt;/p&gt;
+&lt;h3&gt;선물환 포지션 한도란?&lt;/h3&gt;
+&lt;p&gt;선물환 포지션을 거래 하도 최대치를 정해놓은 값이다.&lt;br/&gt;
+이 비율이 늘어나게 되면 은행들이 외화 차입거래를 할 수 있는 한도가 늘어나 국내 외환시장에 외화 공급이 늘어나는효과를 보인다.&lt;/p&gt;
+&lt;p&gt;보통 환율이 급격하게 하락할 때 선물환계약 규제에 대한 얘기가 많이 들린다.
+선물환 한도를 많이 줄이면, 선물환 계약을 하기에 신중해진다.
+수출업체와 선물환 계약이 줄어들고 그만큼 은행이 외환시장에서 파는 달러가 줄어들게 된다.
+은행이 파는 달러가 줄어들게 되면 환율이 급격하게 하락하는 것을 막을 수 있다.&lt;/p&gt;
+&lt;p&gt;반대로 환율이 급격하게 상승하면 선물환 한도를 늘리게 된다.
+수출업체와 선물환 계약을 늘리고 은행이 외환시장에 많이 팔아서 환율이 급격하게 상승하는 것을 막을 수 있다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;기사의 의미&lt;/h2&gt;
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/1b0ca49dd0b578af1e38f835efe19369/d8817/dollar.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.73505654281099%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZklEQVQoz5VSCW6DQAzk/0/LA0JQBbkaIKSEe1n2YGo7Ik1PpZYsZBvPesYOjDFo2w7DoPCbzfP8tAdt22K73SJJEhRFgePxiDAMcTgcxKuqwn9MAOM4xnq9xn6/x263w2q1kniz2SDPc/lxmiYwGz2OGLVBrwwM5ay1UpM8ecANXdf9+SpT4Ubv/S2W3IcUnF88iKIIaZreG3/SjU1rLRO8lSWqa4lLeZX4/r+jB/MMgbUOigpKjTK6UooWNHwCXgAn9uwEHa6hzxncMvE0wsUv8K8pAgYZCEQaSCOO+WUe/z4huRo1dP4Kn+bw5xLudIItMthLDpNEFGfw/YDAOfeNJk/dU9G5my7GWFmIJZ8p7knzrusxk64tXYHqe8l7whLKVd0IZe9vAk+TkbtkEI55IU+fjSXUumlExwWQgb4Ccu2pw2YgptcSjaqu0dBd8lI4rpsWV6LU0LekrdbEZJHo8SIe7R26zFmxUugfNAAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;dollar&quot; title src=&quot;/static/1b0ca49dd0b578af1e38f835efe19369/d9199/dollar.png&quot; srcset=&quot;/static/1b0ca49dd0b578af1e38f835efe19369/8ff5a/dollar.png 240w,
+/static/1b0ca49dd0b578af1e38f835efe19369/e85cb/dollar.png 480w,
+/static/1b0ca49dd0b578af1e38f835efe19369/d9199/dollar.png 960w,
+/static/1b0ca49dd0b578af1e38f835efe19369/d8817/dollar.png 1238w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;p&gt;위의 사진처럼 현재 원/달러 환율이 2010년 6월 11일(1246.1원) 이후로 가장 높다. &lt;br/&gt;
+약 10년만에 환율이 최고 수준으로 높아졌다.&lt;br/&gt;
+이러한 환율에 정부가 외화 유동성 공급 확대 방안으로 선물환 포지션 한도를 상향한 것으로 보인다.&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;참고 사이트&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://ecodemy.cafe24.com/felimi.html&quot;&gt;경제뉴스 읽는 법&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog > 웹페이지 상단 이미지, favicon 설정하기]]></title><description><![CDATA[Blog[4] - 블로그의 상단 이미지, Favicon 설정하기]]></description><link>https://lumen.netlify.com/posts/favicon</link><guid isPermaLink="false">https://lumen.netlify.com/posts/favicon</guid><pubDate>Tue, 17 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Favicon이란?&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Favorites + Icon&lt;/strong&gt; 의 합성어로 웹 브라우저 주소창에 있는 아이콘을 뜻한다.&lt;/p&gt;
 &lt;h3&gt;예시 - 네이버&lt;/h3&gt;
 
@@ -76,7 +129,7 @@ import -&gt; 이미지 open -&gt; 16x16 선택 -&gt; export
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 오버헤드란 어떤 처리를 하기 위해 들어가는 간접적인 처리 시간, 메모리 등을 의미한다.&lt;/p&gt;
 &lt;h3&gt;예시&lt;/h3&gt;
 &lt;p&gt;A라는 처리를 단순하게 실행한다면 10초가 걸리는데 안정성을 고려하고 부가적인 B라는 처리를 추가한 결과 처리 시간이 15초 걸렸다면 오버헤드는 5초가 된다.
-또한 이 처리 B를 개선하라고 해서 처리 시간이 12초가 걸렸다면 오버헤드가 3초 단축되었다고 말한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 아키텍처란?(시스템 아키텍처)]]></title><description><![CDATA[IT용어 정리[3] - 아키텍처의 의미, 그리고 아키텍처의 중요성]]></description><link>https://lumen.netlify.com/posts/architecture/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/architecture/</guid><pubDate>Mon, 24 Feb 2020 18:54:10 GMT</pubDate><content:encoded>&lt;h2&gt;아키텍처의 의미, 그리고 아키텍처의 중요성에 대해 알아볼 것이다.&lt;/h2&gt;
+또한 이 처리 B를 개선하라고 해서 처리 시간이 12초가 걸렸다면 오버헤드가 3초 단축되었다고 말한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 아키텍처란?(시스템 아키텍처)]]></title><description><![CDATA[IT용어 정리[3] - 아키텍처의 의미, 그리고 아키텍처의 중요성]]></description><link>https://lumen.netlify.com/posts/architecture/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/architecture/</guid><pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;아키텍처의 의미, 그리고 아키텍처의 중요성에 대해 알아볼 것이다.&lt;/h2&gt;
 &lt;h1&gt;아키텍처(Architecture)&lt;/h1&gt;
 &lt;h2&gt;사전적 의미&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98#cite_note-1&quot;&gt;위키백과의 시스템 아키텍처&lt;/a&gt;
@@ -87,7 +140,20 @@ import -&gt; 이미지 open -&gt; 16x16 선택 -&gt; export
 &lt;p&gt;내부 개발자의 변화처럼 내부 환경뿐만 아니라 잦은 요구변경, 정책의 변화, 사용하던 서비스의 중단, 사용중인 라이브러리의 버전업 또는 지원중단 등 외부 환경과 변수는 다양하다.&lt;/p&gt;
 &lt;h2&gt;아키텍처 설계의 중요성&lt;/h2&gt;
 &lt;p&gt;아키텍처 설계를 제대로 하지 않아 다양한 환경에 적응하지 못한다면 사소한 변경요구에도 많은 부분을 변경해야되서 시간지체가 이뤄질 수 있다.
-또한, 운영을 하는 입장에서도 라이브러리의 버전업이나 지원중단, 내부 개발자의 변경 등의 문제에서도 많은 시간을 할애해야하는 경우가 생기므로 아키텍처는 제대로 설계해서 구성해야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog > markdown 사용법]]></title><description><![CDATA[Blog[3] - gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
+또한, 운영을 하는 입장에서도 라이브러리의 버전업이나 지원중단, 내부 개발자의 변경 등의 문제에서도 많은 시간을 할애해야하는 경우가 생기므로 아키텍처는 제대로 설계해서 구성해야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제 > 경제에 대해 공부하기]]></title><description><![CDATA[경제[1] - 경제에 대해 공부하기]]></description><link>https://lumen.netlify.com/posts/economy/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/economy/</guid><pubDate>Sun, 23 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;경제란?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://namu.wiki/w/%EA%B2%BD%EC%A0%9C&quot;&gt;나무위키&lt;/a&gt;에서 말하는 경제&lt;/strong&gt; &lt;br/&gt;
+인간의 생활에 필요한 재화나 용역을 생산ㆍ분배ㆍ소비하는 모든 활동. 또는 그것을 통하여 이루어지는 사회적 관계&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;경제는 재화와 서비스를 생산하고 거래하고 소비하는 행위의 총 집산이다. 이 과정에서 세가지 질문이 나오는데, 어떻게 생산할것인가, 어떻게 거래(분배)할것인가, 어떻게 소비할것인가(어디에 소비할것인가)이다. 사람은 무언가 갖고싶고, 하고싶어하는 “욕구” 가 있는데, 이러한 “욕구”를 만족하려면 재화와 서비스가 필요하다&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;내가 생각하는 경제&lt;/h2&gt;
+&lt;p&gt;위에서 생산, 거래, 소비하는 행위의 총 집산이라고 했듯이, 경제란 잘 먹고 잘 살기 위해서 꼭 배워야하는 것이다. &lt;br/&gt;
+경제를 공부한다고 해서 무조건 잘 산다는 보장은 없지만 경제를 공부한다면 잘 살 수 있는 확률이 올라간다고 생각한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;결론이라기엔 말이 이상하지만… &lt;br/&gt;
+진짜로 경제에 ㄱ자도 모르는 사람이기에 앞으로 배우는 것들을 이곳에 적어보려고 한다. &lt;br/&gt;
+뉴스를 보거나, 어떤 내용을 듣거나 할 때마다 열심히 공부해서 경제의 ‘겨’정도는 아는 사람이 됐으면 좋겠다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blog > markdown 사용법]]></title><description><![CDATA[Blog[3] - gatsby 블로그 작성시 필요한 markdown 사용법]]></description><link>https://lumen.netlify.com/posts/how-to-write</link><guid isPermaLink="false">https://lumen.netlify.com/posts/how-to-write</guid><pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;마크다운 쓰는 문법&lt;/h1&gt;
 &lt;h2&gt;헤더&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# first
 ## second
@@ -315,5 +381,5 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 시리즈 한번에 볼 수 있게 만들기 - &lt;a href=&quot;junhobaik.github.io&quot;&gt;junhobaik님 블로그 참고&lt;/a&gt; &lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 작성 중인 글 보관하는 폴더 만들기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 드롭다운 메뉴 만들기&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; favicon 설정하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; favicon 설정하기&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
