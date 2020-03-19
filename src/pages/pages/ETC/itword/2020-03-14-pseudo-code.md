@@ -4,7 +4,7 @@ date: "2020-03-14"
 layout: post
 draft: false
 path: "/posts/pseudoCode"
-category: "Itword"
+category: "IT용어"
 description: "IT용어 정리[2] - Pseudo code란 무엇인가"
 ---
 

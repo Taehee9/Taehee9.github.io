@@ -1,10 +1,10 @@
 ---
 title: IT용어 > 아키텍처란?(시스템 아키텍처)
-date: "2020-02-24T18:54:10.000Z"
+date: "2020-02-24"
 layout: post
 draft: false
 path: "/posts/architecture/"
-category: "itword"
+category: "IT용어"
 description: "IT용어 정리[3] - 아키텍처의 의미, 그리고 아키텍처의 중요성"
 ---
 아키텍처의 의미, 그리고 아키텍처의 중요성에 대해 알아볼 것이다.
