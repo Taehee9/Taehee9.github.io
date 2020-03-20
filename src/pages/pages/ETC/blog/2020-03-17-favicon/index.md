@@ -12,7 +12,7 @@ description: "Blog[4] - 블로그의 상단 이미지, Favicon 설정하기"
 **Favorites + Icon** 의 합성어로 웹 브라우저 주소창에 있는 아이콘을 뜻한다.
 
 ### 예시 - 네이버
-<img src="./favicon-example.png" width="100px" height="" />
+<img src="favicon-example.png" width="300px" height=""/>
 
 <br/>
 <br/>

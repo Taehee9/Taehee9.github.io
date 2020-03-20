@@ -32,23 +32,25 @@ module.exports = {
         ],
       },
       {
-        label: 'Database',
-        path: '/db/',
+        label: 'Computer Science',
+        path: '/sc/',
         sub_menu: [
+          // {
+          //   label: '자료구조 & 알고리즘',
+          //   path: '/Algorithm/',
+          // },
           {
             label: 'DB',
             path: '/Db/',
           },
-        ],
-      },
-      {
-        label: 'Computer Science',
-        path: '/sc/',
-        sub_menu: [
-          {
-            label: '자료구조 & 알고리즘',
-            path: '/Algorithm/',
-          },
+          // {
+          //   label: 'OS',
+          //   path: '/Os/',
+          // },
+          // {
+          //   label: 'Network',
+          //   path: '/Network/',
+          // },
         ],
       },
       {
@@ -57,7 +59,11 @@ module.exports = {
         sub_menu: [
           {
             label: 'IT용어',
-            path: '/Itword/',
+            path: '/IT용어/',
+          },
+          {
+            label: 'Web',
+            path: '/Web/',
           },
           {
             label: 'Git',
