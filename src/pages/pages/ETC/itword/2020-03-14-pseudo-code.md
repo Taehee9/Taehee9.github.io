@@ -19,7 +19,7 @@ description: "IT용어 정리[2] - Pseudo code란 무엇인가"
 ### 예시
 
 #### C언어 스타일의 슈도코드
-```
+```c
 For (i = 1; i<=100; i++) {
     set print_number to true;
     If i is divisible by 3
