@@ -9,7 +9,6 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve('./src/templates/post-template.jsx')
     const pageTemplate = path.resolve('./src/templates/page-template.jsx')
-    const tagTemplate = path.resolve('./src/templates/tag-template.jsx')
     const categoryTemplate = path.resolve(
       './src/templates/category-template.jsx'
     )
@@ -26,7 +25,6 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
-                tags
                 layout
                 category
               }
@@ -52,21 +50,6 @@ exports.createPages = ({ graphql, actions }) => {
             path: edge.node.fields.slug,
             component: slash(postTemplate),
             context: { slug: edge.node.fields.slug },
-          })
-
-          let tags = []
-          if (_.get(edge, 'node.frontmatter.tags')) {
-            tags = tags.concat(edge.node.frontmatter.tags)
-          }
-
-          tags = _.uniq(tags)
-          _.each(tags, tag => {
-            const tagPath = `/tags/${_.kebabCase(tag)}/`
-            createPage({
-              path: tagPath,
-              component: tagTemplate,
-              context: { tag },
-            })
           })
 
           let categories = []
@@ -112,13 +95,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'slug',
       value: slug,
     })
-
-    if (node.frontmatter.tags) {
-      const tagSlugs = node.frontmatter.tags.map(
-        tag => `/tags/${_.kebabCase(tag)}/`
-      )
-      createNodeField({ node, name: 'tagSlugs', value: tagSlugs })
-    }
 
     if (typeof node.frontmatter.category !== 'undefined') {
       const categorySlug = `/categories/${_.kebabCase(

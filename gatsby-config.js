@@ -22,68 +22,38 @@ module.exports = {
         path: '/about/',
       },
       {
-        label: 'Programming',
-        path: '/pg/',
+        label: 'Category',
+        path: '/category',
         sub_menu: [
           {
             label: 'Java',
             path: '/Java/',
           },
-        ],
-      },
-      {
-        label: 'Computer Science',
-        path: '/sc/',
-        sub_menu: [
           // {
-          //   label: '자료구조 & 알고리즘',
-          //   path: '/Algorithm/',
+          //   label: 'DB',
+          //   path: '/DB/',
           // },
-          {
-            label: 'DB',
-            path: '/Db/',
-          },
-          // {
-          //   label: 'OS',
-          //   path: '/Os/',
-          // },
-          // {
-          //   label: 'Network',
-          //   path: '/Network/',
-          // },
-        ],
-      },
-      {
-        label: 'ETC',
-        path: '/ETC/',
-        sub_menu: [
           {
             label: 'IT용어',
             path: '/IT용어/',
           },
-          {
-            label: 'Web',
-            path: '/Web/',
-          },
-          {
-            label: 'Git',
-            path: '/Git/',
-          },
+          // {
+          //   label: 'Web',
+          //   path: '/Web/',
+          // },
+          // {
+          //   label: 'Git',
+          //   path: '/Git/',
+          // },
           {
             label: '블로그',
             path: '/Blog/',
           },
-        ],
-      },
-      {
-        label: 'Learning',
-        path: '/learning/',
-        sub_menu: [
           {
             label: '경제',
             path: '/Economy/',
-          },
-        ],
+          }
+        ]
       },
     ],
     author: {
