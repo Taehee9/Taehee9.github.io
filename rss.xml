@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 Mar 2020 10:05:30 GMT</lastBuildDate><item><title><![CDATA[경제 > 뉴스[1] - 은행 외화보유자산 늘린다]]></title><description><![CDATA[경제뉴스[1] - 은행 외화 보유자산 늘리기 위해 은행 선물환 포지션 한도 확대]]></description><link>https://lumen.netlify.com/posts/news0318/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/news0318/</guid><pubDate>Wed, 18 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;3월 18일 오늘의 경제 뉴스&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Taehee's RSS Feed]]></title><description><![CDATA[여러 분야의 성장 일기]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Mar 2020 02:28:58 GMT</lastBuildDate><item><title><![CDATA[경제 > 뉴스[1] - 은행 외화보유자산 늘린다]]></title><description><![CDATA[경제뉴스[1] - 은행 외화 보유자산 늘리기 위해 은행 선물환 포지션 한도 확대]]></description><link>https://lumen.netlify.com/posts/news0318/</link><guid isPermaLink="false">https://lumen.netlify.com/posts/news0318/</guid><pubDate>Wed, 18 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;3월 18일 오늘의 경제 뉴스&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;sm=tab_htk.nws&amp;#x26;ie=utf8&amp;#x26;query=%EC%9D%80%ED%96%89+%EC%84%A0%EB%AC%BC%ED%99%98%ED%8F%AC%EC%A7%80%EC%85%98%ED%95%9C%EB%8F%84+25%25+%ED%99%95%EB%8C%80&quot;&gt;은행 선물환 포지션 한도 확대 기사&lt;/a&gt;&lt;br/&gt;
 오늘 오전에 실검에 계속 떠있던 기사에 대해 궁금한 것이 있어 가져와봤다.&lt;/p&gt;
 &lt;h2&gt;기사 자세한 내용&lt;/h2&gt;
@@ -114,17 +114,17 @@ import -&gt; 이미지 open -&gt; 16x16 선택 -&gt; export
 &lt;p&gt;특정 프로그래밍 언어의 문법에 의해서 쓰인 것이 아니라 일반적인 언어로 코드를 흉내내어 알고리즘을 써놓은 코드이다.&lt;/p&gt;
 &lt;h3&gt;예시&lt;/h3&gt;
 &lt;h4&gt;C언어 스타일의 슈도코드&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;For (i = 1; i&amp;lt;=100; i++) {
-    set print_number to true;
-    If i is divisible by 3
-        print &amp;quot;Fizz&amp;quot;;
-        set print_number to false;
-    If i is divisible by 5
-        print &amp;quot;Buzz&amp;quot;;
-        set print_number to false;
-    If print_number, print i;
-    print a newline;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 오버헤드(Overhead)]]></title><description><![CDATA[IT용어 정리[1] - Overhead란 무엇인가]]></description><link>https://lumen.netlify.com/posts/overhead</link><guid isPermaLink="false">https://lumen.netlify.com/posts/overhead</guid><pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;오버헤드란?&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;For &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    set print_number to true&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    If i is divisible by &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+        print &lt;span class=&quot;token string&quot;&gt;&quot;Fizz&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        set print_number to false&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    If i is divisible by &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+        print &lt;span class=&quot;token string&quot;&gt;&quot;Buzz&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        set print_number to false&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    If print_number&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; print i&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    print a newline&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[IT용어 > 오버헤드(Overhead)]]></title><description><![CDATA[IT용어 정리[1] - Overhead란 무엇인가]]></description><link>https://lumen.netlify.com/posts/overhead</link><guid isPermaLink="false">https://lumen.netlify.com/posts/overhead</guid><pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;오버헤드란?&lt;/h2&gt;
 &lt;h3&gt;위키백과&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C&quot;&gt;위키백과&lt;/a&gt;에서 오버헤드란 어떤 처리를 하기 위해 들어가는 간접적인 처리 시간, 메모리 등을 의미한다.&lt;/p&gt;
 &lt;h3&gt;예시&lt;/h3&gt;
@@ -372,14 +372,52 @@ React-Native를 접해봤기 때문에 React 공부를 제대로 해보고 싶�
 &lt;p&gt;추가해야 될 부분에 대해서 체크해놓고 바꿔봐야겠다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 카테고리 넣기 - 계층형&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 카테고리 옆에 개수 표시&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 댓글 &lt;a href=&quot;https://github.com/utterance/utterances&quot;&gt;utterances&lt;/a&gt; 댓글추가하기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; code block theme 추가하기&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 글 목차(Toc(Table of Contents)) 사용하기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 글 목차(Toc - Table of Contents) 사용하기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Light / Dark 테마 넣기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 시리즈 한번에 볼 수 있게 만들기 - &lt;a href=&quot;junhobaik.github.io&quot;&gt;junhobaik님 블로그 참고&lt;/a&gt; &lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 작성 중인 글 보관하는 폴더 만들기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 드롭다운 메뉴 만들기&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; favicon 설정하기&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Java > 클래스, 객체, 인터페이스의 차이]]></title><description><![CDATA[클래스, 객체, 인터페이스의 차이를 확실하게 정리해두기]]></description><link>https://lumen.netlify.com/posts/compare-class-interface</link><guid isPermaLink="false">https://lumen.netlify.com/posts/compare-class-interface</guid><pubDate>Wed, 22 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;클래스란?&lt;/h2&gt;
+&lt;h3&gt;사전상의 의미&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%98%EC%8A%A4_(%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)&quot;&gt;위키백과에서 클래스&lt;/a&gt;란 객체 지향 프로그래밍(OOP)에서 특정 객체를 생성하기 위해 변수와 메소드를 정의하는 일종의 틀이라고 한다.&lt;br/&gt;
+객체를 정의 하기 위한 상태(멤버변수)와 메서드(함수)로 구성되어 있다.&lt;/p&gt;
+&lt;h3&gt;간단히 말해서 클래스란!&lt;/h3&gt;
+&lt;p&gt;객체를 만들어내기 위한 틀이다.&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;객체란?&lt;/h2&gt;
+&lt;h3&gt;사전상의 의미&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B0%9D%EC%B2%B4_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)&quot;&gt;위키백과에서 객체&lt;/a&gt;란 클래스에서 정의한 것을 토대로 메모리에 할당된 것으로 프로그램에서 사용되는 데이터 또는 식별자에 의해 참조되는 공간을 의미한다.&lt;br/&gt;
+객체는 오브젝트(object)라고도 불리며 변수, 자료구조, 함수가 될 수 있다.&lt;br/&gt;
+변수를 이용해 객체에 접근하며 메모리가 할당하기 전까지 객체는 존재하지 않는다.&lt;/p&gt;
+&lt;h3&gt;간단히 말해서 객체란!&lt;/h3&gt;
+&lt;p&gt;소프트웨어 상에서 구현할 대상이다.&lt;/p&gt;
+&lt;h2&gt;인터페이스란?&lt;/h2&gt;
+&lt;h3&gt;사전상의 의미&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)&quot;&gt;위키백과에서 인스턴스&lt;/a&gt;란 해당 클래스의 구조로 컴퓨터 저장 공간에서 할당된 실체를 의미한다.&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;간단히 말해서 인터페이스란!&lt;/h3&gt;
+&lt;p&gt;소프트웨어에서 구현된 실체이다.&lt;/p&gt;
+&lt;h2&gt;클래스, 객체, 인터페이스의 예시&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/* 클래스 */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;/* 객체와 인스턴스 */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;token class-name&quot;&gt;Animal&lt;/span&gt; dog&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; cat&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; cow&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 객체&lt;/span&gt;
+	
+		&lt;span class=&quot;token comment&quot;&gt;// 인스턴스화&lt;/span&gt;
+		dog &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// dog은 Animal 클래스의 인스턴스&lt;/span&gt;
+		cat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// cat은 Animal 클래스의 인스턴스&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;클래스, 객체, 인터페이스의 차이점 정리&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;클래스&lt;/strong&gt;는 쉽게 말해 설계도,&lt;br/&gt;
+&lt;strong&gt;객체&lt;/strong&gt;는 그 설계도로 구현한 모든 대상,&lt;br/&gt;
+&lt;strong&gt;인스턴스&lt;/strong&gt;는 그 객체가 메모리에 할당된 것!&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
