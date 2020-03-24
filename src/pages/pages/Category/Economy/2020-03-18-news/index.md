@@ -1,11 +1,11 @@
 ---
-title: 경제 > 뉴스[1] - 은행 외화보유자산 늘린다
+title: 경제뉴스 > 은행 외화보유자산 늘린다
 date: "2020-03-18"
 layout: post
 draft: false
 path: "/posts/news0318/"
 category: "Economy"
-description: "경제뉴스[1] - 은행 외화 보유자산 늘리기 위해 은행 선물환 포지션 한도 확대"
+description: "경제뉴스 - 은행 외화 보유자산 늘리기 위해 은행 선물환 포지션 한도 확대"
 ---
 
 ## 3월 18일 오늘의 경제 뉴스
