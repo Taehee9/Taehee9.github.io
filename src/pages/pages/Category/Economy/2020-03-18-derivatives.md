@@ -2,7 +2,7 @@
 title: 경제기초용어 > 파생상품이란?
 date: "2020-03-18"
 layout: post
-draft: false
+draft: true
 path: "/posts/derivatives/"
 category: "Economy"
 description: "경제기초용어 > 파생상품이란?"
